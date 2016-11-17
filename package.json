@@ -1,0 +1,27 @@
+{
+  "name": "recipe-organizer",
+  "version": "1.0.0",
+  "description": "A small recipe app",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.14.0",
+    "lodash": "^4.16.6",
+    "mongodb": "^2.2.11",
+    "reload": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon -e css,ejs,js,json --watch app app/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chambjl/recipe-organizer.git"
+  },
+  "author": "Jason Chamberlin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chambjl/recipe-organizer/issues"
+  },
+  "homepage": "https://github.com/chambjl/recipe-organizer"
+}
